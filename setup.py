@@ -1,11 +1,11 @@
-import os
-import codecs
+# import os
+# import codecs
 from setuptools import setup
 
-readme_path = os.path.join(os.path.dirname(__file__), 'README.md')
-
-with codecs.open(readme_path, mode='r', encoding='utf-8') as f:
-    description = f.read()
+# readme_path = os.path.join(os.path.dirname(__file__), 'README.md')
+#
+# with codecs.open(readme_path, mode='r', encoding='utf-8') as f:
+#     description = f.read()
 
 setup(
     name='parse-torrent-name',
@@ -15,7 +15,7 @@ setup(
     license=__import__('PTN').__license__,
     url='https://github.com/divijbindlish/parse-torrent-name',
     description='Extract media information from torrent-like filename',
-    long_description=description,
+    long_description="",
     packages=['PTN'],
     keywords=('parse parser torrent torrents name names proper rename '
               'movie movies tv show shows series extract find quality '
